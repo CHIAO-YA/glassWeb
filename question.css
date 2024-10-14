@@ -1,0 +1,432 @@
+@media (max-width:600px){
+    *{
+        padding: 0;
+        margin: 0 ;
+    
+    }
+    header,nav{
+        background-color: rgb(171, 4, 4);
+        height: 103px;
+        width: 100%;
+    }
+    header li{
+        display: inline;/*行內元素 橫式排列*/
+        text-align: center;
+        font-weight: 900;
+        border:solid white 1px;
+    }
+    header ul{
+        line-height: 50px;
+        font-size: 120%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    header a{
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover{
+        color: black;
+    }
+    header img{
+        position: relative;
+        left: 50%;
+        width: 100px;
+        transform: translate(-50%);
+    }
+    .question{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .question h1{
+        border-left:solid 5px rgb(171, 4, 4);
+        font-size: 27px;
+        padding-left: 10px;
+        margin: 100px 0px 20px 0px ;
+    }
+    .question h3{
+    padding:10px 0px 10px 0px;
+    }
+    p{
+        color: #333;
+        font-size: 13px;
+        font-weight: 900;
+    }
+    footer nav{
+        height: 240px;
+        width: 100%;
+        
+    }
+    footer li{
+        display: inline;/*行內元素 橫式排列*/
+    }
+    footer ul{
+        position: absolute;/*絕對*/
+        line-height: 80px;
+        margin-left: 20px;
+        font-size: small;
+        word-spacing :15px
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+    footer nav img{
+        position: absolute;
+     } 
+     footer p{
+        margin-left:4px;
+        padding-top: 80px;
+        font-size: 15px;
+        color: white;
+        padding-bottom: 20PX;
+        padding-left: 50px;
+        border-bottom:solid 1px white; 
+        margin-right: 50px;
+     }
+    footer p1{
+        line-height: 70px;
+        margin-left: 20px;
+        font-size: small; 
+        color: white;
+        margin-right: auto;
+     }
+     footer p3{
+        color: white;
+        font-size: smaller;
+        margin-left: 50px;
+        line-height: 70px;
+    }
+    
+    footer img{
+        width:20px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+}
+@media (min-width:600px) and (max-width:800px){   
+    *{
+        padding: 0;
+        margin: 0 ;
+    
+    }
+    header,nav{
+        background-color: rgb(171, 4, 4);
+        height: 85px;
+        width: 100%;
+    }
+    header li{
+        display: inline;/*行內元素 橫式排列*/
+        margin-right: 5vw;/*根據視窗調整寬度*/
+    }
+    header ul{
+        position: absolute;/*絕對*/
+        right:5vw;
+        top: 0;
+        line-height: 80px;
+        font-size: 120%;
+    }
+    header a{
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover{
+        color: black;
+    }
+    header img{
+        position: absolute;
+        left: 6vw;
+        width: 100px
+    }
+    .question{
+        margin-left: 20px;
+        margin-bottom: 50px;
+    }
+    .question h1{
+        border-left:solid 5px rgb(171, 4, 4);
+        font-size: 40px;
+        padding-left: 10px;
+        margin: 40px 0px 20px 0px ;
+    }
+    .question h3{
+    padding:30px 0px 10px 0px;
+    }
+    p{
+        color: #333;
+        font-size: 13px;
+        font-weight: 900;
+    }
+    footer nav{
+        height: 240px;
+        width: 100%;
+        
+    }
+    footer li{
+        display: inline;/*行內元素 橫式排列*/
+    }
+    footer ul{
+        position: absolute;/*絕對*/
+        line-height: 80px;
+        margin-left: 20px;
+        font-size: small;
+        word-spacing :30px
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+    footer nav img{
+        position: absolute;
+     } 
+     footer p{
+        margin-left:20px;
+        padding-top: 80px;
+        font-size: 30px;
+        color: white;
+        padding-bottom: 20PX;
+        padding-left: 50px;
+        border-bottom:solid 1px white; 
+        margin-right: 60px;
+     }
+    footer p1{
+        line-height: 70px;
+        margin-left: 20px;
+        font-size: small; 
+        color: white;
+        margin-right: auto;
+     }
+     footer p3{
+        color: white;
+        font-size: small;
+        margin-left: 100px;
+        line-height: 70px;
+    }
+    
+    footer img{
+        width:40px;
+        margin-left: 20px;
+        margin-top: 80px;
+    }
+}
+
+@media (min-width:800px) and (max-width:1024px){   
+    *{
+        padding: 0;
+        margin: 0 ;
+    
+    }
+    header,nav{
+        background-color: rgb(171, 4, 4);
+        height: 85px;
+        width: 100%;
+    }
+    header li{
+        display: inline;/*行內元素 橫式排列*/
+        margin-right: 5vw;/*根據視窗調整寬度*/
+    }
+    header ul{
+        position: absolute;/*絕對*/
+        right:5vw;
+        top: 0;
+        line-height: 80px;
+        font-size: 140%;
+    }
+    header a{
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover{
+        color: black;
+    }
+    header img{
+        position: absolute;
+        left: 6vw;
+        width: 100px
+    }
+    .question{
+        margin-left: 90px;
+        margin-bottom: 50px;
+    }
+    .question h1{
+        border-left:solid 5px rgb(171, 4, 4);
+        font-size: 40px;
+        padding-left: 10px;
+        margin: 40px 0px 20px 0px ;
+    }
+    .question h3{
+    padding:30px 0px 10px 0px;
+    }
+    p{
+        color: #333;
+        font-size: 13px;
+        font-weight: 900;
+    }
+    footer nav{
+        height: 240px;
+        width: 100%;
+        
+    }
+    footer li{
+        display: inline;/*行內元素 橫式排列*/
+    }
+    footer ul{
+        position: absolute;/*絕對*/
+        line-height: 80px;
+        margin-left: 90px;
+        font-size: small;
+        word-spacing :30px
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+    footer nav img{
+        position: absolute;
+     } 
+     footer p{
+        margin-left:90px;
+        padding-top: 80px;
+        font-size: 30px;
+        color: white;
+        padding-bottom: 20PX;
+        padding-left: 50px;
+        border-bottom:solid 1px white; 
+        margin-right: 125px;
+     }
+    footer p1{
+        line-height: 70px;
+        margin-left: 90px;
+        font-size: small; 
+        color: white;
+        margin-right: auto;
+     }
+     footer p3{
+        color: white;
+        font-size: small;
+        margin-left: 205px;
+        line-height: 70px;
+    }
+    
+    footer img{
+        width:40px;
+        margin-left: 90px;
+        margin-top: 80px;
+    }
+}
+@media (min-width:1025px){   
+    *{
+        padding: 0;
+        margin: 0 ;
+    
+    }
+    header,nav{
+        background-color: rgb(171, 4, 4);
+        height: 85px;
+        width: 100%;
+    
+    }
+    header li{
+        display: inline;/*行內元素 橫式排列*/
+        margin-right: 2vw;/*根據視窗調整寬度*/
+    }
+    header ul{
+        position: absolute;/*絕對*/
+        right:1vw;
+        top: 0;
+        line-height: 80px;
+        font-size: 140%;
+    }
+    header a{
+        color: white;
+        text-decoration: none;
+    }
+    header a:hover{
+        color: black;
+    }
+    header img{
+        position: absolute;
+        left: 4vw;
+        width: 100px
+    }
+    .question{
+        margin-left: 200px;
+        margin-bottom: 50px;
+    }
+    .question h1{
+        border-left:solid 5px rgb(171, 4, 4);
+        font-size: 40px;
+        padding-left: 10px;
+        margin: 40px 0px 20px 0px ;
+    }
+    .question h3{
+    padding:30px 0px 10px 0px;
+    }
+    p{
+        color: #333;
+        font-size: 13px;
+        font-weight: 900;
+    }
+    footer nav{
+        height: 240px;
+        width: 100%;
+        
+    }
+    footer li{
+        display: inline;/*行內元素 橫式排列*/
+    }
+    footer ul{
+        position: absolute;/*絕對*/
+        line-height: 80px;
+        margin-left: 200px;
+        font-size: small;
+        word-spacing :30px
+    }
+    footer a{
+        color: white;
+        text-decoration: none;
+    }
+    footer a:hover{
+        color: black;
+    }
+    footer nav img{
+        position: absolute;
+     } 
+     footer p{
+        margin-left:200px;
+        padding-top: 80px;
+        font-size: 30px;
+        color: white;
+        padding-bottom: 20PX;
+        padding-left: 50px;
+        border-bottom:solid 1px white; 
+        margin-right: 250px;
+     }
+    footer p1{
+        line-height: 70px;
+        margin-left: 200px;
+        font-size: small; 
+        color: white;
+        margin-right: auto;
+     }
+     footer p3{
+        color: white;
+        font-size: small;
+        margin-left: 410px;
+        line-height: 70px;
+    }
+    
+    footer img{
+        width:40px;
+        margin-left: 200px;
+        margin-top: 80px;
+    }
+}
